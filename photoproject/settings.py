@@ -137,12 +137,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # メールサーバーへの接続設定
 # Gmailのアドレス、Gmailのアプリ用パスワードは
-# お使いのものを入力してください
-DEFAULT_FROM_EMAIL = 'xxxxxx@gmail.com'  # メールの送信元のアドレスを入力
+# お使いのものを入力してください 412
+DEFAULT_FROM_EMAIL = 'djangosousin@gmail.com'  # メールの送信元のアドレスを入力
 EMAIL_HOST = 'smtp.gmail.com'            # GmailのSMPTサーバー　　　
 EMAIL_PORT = 587                         # SMPTサーバーのポート番号
-EMAIL_HOST_USER = 'xxxxxxx@gmail.com'    # Gmailのアドレスを入力
-EMAIL_HOST_PASSWORD = 'xxxxxxxxxxxxxxxx' # Gmailのアプリ用パスワードを入力
+EMAIL_HOST_USER = 'djangosousin@gmail.com'    # Gmailのアドレスを入力
+EMAIL_HOST_PASSWORD = 'dcru qyda leck xqfc' # Gmailのアプリ用パスワードを入力
 EMAIL_USE_TLS = True # SMTP サーバと通信する際に TLS (セキュア) 接続を使う
 
 # mediaフォルダーの場所(BASE_DIR以下のmedia)を登録

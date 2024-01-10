@@ -3,16 +3,15 @@
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <!-- タイトルと本文 -->
-        <h1 class="fw-light">Photo Gallery</h1>
+        <h1 class="fw-light">Picture Diary</h1>
         <p class="lead text-muted">
-          コメントを見て写真に描かれた世界に思いを馳せましょう。
-          素敵な写真とコメントをお待ちしています!</p>
+          あなただけの絵日記を投稿しましょう!</p>
         <p>
           <!-- ナビゲーションボタン -->
           {% if user.is_authenticated %}
           <!-- ログイン中のボタン -->
           <a href="{% url 'photo:post' %}"
-             class="btn btn-primary my-2">投稿する</a>
+             class="btn btn-primary my-2">日記を書く</a>
           <a href="{% url 'accounts:logout' %}"
              class="btn btn-secondary my-2">ログアウト</a>
           {% else %}
